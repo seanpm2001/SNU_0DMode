@@ -1,0 +1,567 @@
+<!--- start of script !--->
+<HTML>
+<BODY>
+<head> <!-- external and internal resources needed for page !-->
+<!-- .*. !--> <!-- 01 !--><!-- Encoding !--><meta charset="UTF-16"><!-- the script needed for UTF-16 encoding !--><!-- Internal resource !-->
+<!-- .ico !--><!-- 02 !--<!-- Favicon !--><link rel="icon" href="SNU_UNDERCONSTRUCTION_favicon.ico" type="image/x-icon"/><!-- The favicon for this page !--><!-- external resource !-->
+<!-- No longer necessary !--><!-- .js !--> <!-- 03 !--<!-- JavaScript file 1 !--><!--<script type="text/javascript" src="ExpandAll_ScriptV1.00.js"></script><!-- the script needed to automatically expand all detail tags !--><!-- external resource !-->
+<!-- .js !--><!-- 04 !--><!-- JavaScript file !--><script type="text/javascript" src="Sourcebase_SNUScriptStarter_V1.00.js"></script><!-- The full JavaScript SNU sheet, modify to your liking !-->
+<!-- No longer necessary !--><!-- .css !--><!-- 05 !--<!-- Stylesheet 1 !--><!--<link rel="stylesheet" type="text/css" href="2DStart_Style_StickySideBarVersion1.01.css"> <!-- The stylesheet for the sidebar !--><!-- external resource !-->
+<!-- No longer necessary !--><!-- .css !--><!-- 06 !--<!-- Stylesheet 2 !--><!--<link rel="stylesheet" type="text/css" href="TOP_NAVIGATION_BAR_V1.0.css"> <!-- The stylesheet for the top navigation pane !--><!-- external resource !-->
+<!-- .css !--><!-- 07 !--<!-- Stylesheet 3 !--><link rel="stylesheet" type="text/css" href="Sourcebase_SNUScriptStarter_V1.01.css"> <!-- Make sure to modify this CSS to your liking !--><!-- The stylesheet for the black text !--><!-- external resource !-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Welcome to the homepage for the SNU Update log">
+<meta name="keywords" content="SNU development, logs, updates">
+<meta name="author" content="NOT_ANNOUNCDD">
+</head>
+<HEAD>
+<meta> <!-- Meta character set section !-->
+	<!-- meta charset="ANSI"> <!-- page encoding minimum !-->
+	<!-- meta charset="ASCII"> <!-- page encoding  !-->
+	<!-- meta charset="UC-2"> <!-- page encoding  !-->
+	<!-- meta charset="UTF-8"> <!-- page encoding  !-->
+	<meta charset="UTF-16"> <!-- Page encoding main !-->
+	<!-- meta charset="UTF-32"> <!-- page encoding  !-->
+</meta> <!-- End of meta character set section !-->
+<style>
+/* Sourcebase CSS starter file
+Version 1.01 (September 27th 2019 build)
+Most recent: 1.01 (September 27th 2019 build)
+CSS starter script
+*/
+/* Start of stylesheet rules */
+/* Grid system */
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+/* Transparent boxes */
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+div.transbox {
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #00BFFF; /* The text was there, the background was the wrong color. A new beautiful shade of blue was added to fix this - April 6th 2019 */
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div.transbox p {
+  margin: 1%; /* make sure this stays at 1%. At 5%, there is a large spacing issue between each new paragraph */
+  font-weight: bold;
+  color: #ffffff;
+}
+/* Sidebar */
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 16%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: black;
+}
+/* Topbar */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Headings */
+H1 {
+	color: black;
+}
+H2 {
+	color: black;
+}
+H3 {
+	color: black;
+}
+H4 {
+	color: black;
+}
+H5 {
+	color: black;
+}
+H6 {
+	color: black;
+}
+/* Dividers, paragraphs */
+HR {
+	color: black;
+}
+p {
+	color: black;
+}
+/* Other rich text */
+i {
+	color: black;
+}
+u {
+	color: black;
+}
+b {
+	color: black;
+}
+s {
+	color: black;
+}
+sub {
+	color: black;
+}
+sup {
+	color: black;
+}
+/* Details and summary */
+details {
+	color: black;
+}
+summary {
+	color: black;
+}
+/* Progress bar 
+/* Option 1 */
+progress {
+	display:inline-block;
+	width:190px;
+	height:20px;
+	padding:15px 0 0 0;
+	margin:0;
+	background:none;
+	border: 0;
+	border-radius: 15px;
+	text-align: left;
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+progress::-webkit-progress-bar {
+	height:11px;
+	width:150px;
+	margin:0 auto;
+	background-color: #CCC;
+	border-radius: 15px;
+	box-shadow:0px 0px 6px #777 inset;
+}
+progress::-webkit-progress-value {
+	display:inline-block;
+	float:left;
+	height:11px;
+	margin:0px -10px 0 0;
+	background: #F70;
+	border-radius: 15px;
+	box-shadow:0px 0px 6px #777 inset;
+}
+progress:after {
+	margin:-26px 0 0 -7px;
+	padding:0;
+	display:inline-block;
+}
+/* Option 2 */
+#progress {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+/* Option 3 */
+#progressbar {
+  background-color: black;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+}
+
+#progressbar>div {
+  background-color: orange;
+  width: 40%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+}
+/* Option 4 */
+/* Step 1 */
+progress,          /* All HTML5 progress enabled browsers */
+{
+
+    /* Turns off styling - not usually needed, but good to know. */
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+}
+/* Step 2 */
+/* IE10 */
+progress {
+    color: black;
+}
+
+/* Firefox */
+progress::-moz-progress-bar { 
+    background: black;  
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+    background: black;
+}
+/* Step 3 */
+progress[value^="9"]::-moz-progress-bar {
+background-color : red;
+}
+/* 
+More CSS - Blackboard kit
+blackboard kit 
+Version 1
+*/
+/* black text for all! */
+/* the blackboard CSS file optimizes text for dark backgrounds, just like chalk on a blackboard */
+HR {
+	color: black;
+}
+/* heading section */
+h1 {
+	color: black;
+}
+H1 {
+	color: black;
+}
+h2 {
+	color: black;
+}
+H2 {
+	color: black;
+}
+h3 {
+	color: black;
+}
+H3 {
+	color: black;
+}
+h4 {
+	color: black;
+}
+H4 {
+	color: black;
+}
+h5 {
+	color: black;
+}
+H5 {
+	color: black;
+}
+h6 {
+	color: black;
+}
+H6 {
+	color: black;
+}
+/* rich text section */
+p {
+	color: black;
+}
+P {
+	color: black;
+}
+b {
+	color: black;
+}
+B {
+	color: black;
+}
+u {
+	color: black;
+}
+U {
+	color: black;
+}
+s {
+	color: black;
+}
+S {
+	color: black;
+}
+i {
+	color: black;
+}
+I {
+	color: black;
+}
+sub {
+	color: black;
+}
+SUB {
+	color: black;
+}
+sup {
+	color: black;
+}
+SUP {
+	color: black;
+}
+}
+details {
+	color: black;
+}
+DETAILS {
+	color: black;
+/* OPTIONAL */
+/*
+a {
+	color: black;
+}
+A {
+	color: black;
+}
+*/
+/* form section */
+form {
+	color: black;
+}
+FORM {
+	color: black;
+}
+/* specialized button hyperlink section */
+a {
+	color: black;
+}
+A {
+	color: black;
+}
+/* WebGL compatibility layer */
+canvas {
+	border: 2px solid black;
+	background-color: black;
+}
+video {
+	display: none;
+}
+/* Gallery */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Border image */
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+/* end of stylesheet */
+/* End of stylesheet rules */
+/* Description
+None
+*/
+/* Statistics
+Character count: 07,.349 characters (07,.349 bytes) (07,.349 Kilobytes)
+Line count: 0,.456
+File type: *.css (Cascade Styling Sheets)
+Language: CSS (Cascade Styling Sheets)
+Version: 2 (September 27th 2019)
+Latest version: 2 (September 27th 2019)
+First version: 1 (September 26th 2019)
+*/
+</style>
+<?
+// PHP section
+?>
+<script>
+console.log("SNU web console for [browser]");
+console.log("The [section] console");
+console.log(">>>");
+</script>
+<ruby>
+</ruby>
+<TITLE>SNU 0D mode - The non-existant SNU mode</TITLE> <!-- Page title !-->
+</HEAD>
+<BODY BGCOLOR="BLACK"> <!-- Background color !-->
+<!-- Brief color list
+Black (000000)
+White (FFFFFF)
+Cyan (00FFFF)
+Navy (000080)
+Dark grey (333333)
+Light grey (777777)
+Red (FF0000)
+Green (00FF00)
+Turquiose (40E0D0)
+!-->
+<!-- Center all of this !-->
+<header>
+<H1>0 dimensional mode does not exist</H1>
+<H2>It is not possible to display 0 dimensional content</H2>
+<details><summary><H3>Try: (CLICK HERE TO TRY OTHER MODES)</H3></summary>
+<H4><a href="../1D">1D mode (Recommended)</a></H4>
+<H4><a href="../2D">2D mode (Recommended)</a></H4>
+<H4><a href="../3D">3D mode (Recommended)</a></H4>
+<H4><a href="../4D">4D mode (Easter egg)</a></H4>
+</details>
+</header>
+<header>
+<details><summary><H1>Back (click here to reveal)</H1></summary>
+<H6><a href="0DHOME.htm">Alternate view</a></H6>
+</details>
+</header>
+<section>
+<details><summary><H2>View older versions of this page</H2></summary>
+<H3>Snapshots 1 to 10</H3>
+<H4><button><a href="0DHOME_B_Snapshot1.htm">Snapshot 1</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot2.htm">Snapshot 2</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot3.htm">Snapshot 3</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot4.htm">Snapshot 4</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot5.htm">Snapshot 5</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot6.htm">Snapshot 6</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot7.htm">Snapshot 7</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot8.htm">Snapshot 8</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot9.htm">Snapshot 9</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot10.htm">Snapshot 10</a></button></H4>
+<H3>Snapshots 11 to 20</H3>
+<H4><button><a href="0DHOME_B_Snapshot11.htm">Snapshot 11</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot12.htm">Snapshot 12</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot13.htm">Snapshot 13</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot14.htm">Snapshot 14</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot15.htm">Snapshot 15</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot16.htm">Snapshot 16</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot17.htm">Snapshot 17</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot18.htm">Snapshot 18</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot19.htm">Snapshot 19</a></button></H4>
+<H4><button><a href="0DHOME_B_Snapshot20.htm">Snapshot 20</a></button></H4>
+</details>
+</section>
+
+<H1>You have reached the bottom of this page.</H1>
+
+<footer>
+<!--<p>Footer content here</p>!-->
+<p>Footer not yet set up</p>
+</footer>
+<!-- Bottom script (filler) !-->
+</HR>
+</BODY>
+<!-- </BODY> !-->
+<!-- This page was built off the basis of SNU Sourcebase HTML scriptstarter 1.05 !-->
+</HTML>
+<!-- Bottom script (filler) !-->
+<!--- end of script !--->
