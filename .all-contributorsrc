@@ -81,6 +81,23 @@
         "maintenance",
         "ideas"
       ]
+    },
+    {
+      "login": "snu-package-manager",
+      "name": "SNU Package Manager",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105081786?v=4",
+      "profile": "https://github.com/SNU-Package-Manager",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
