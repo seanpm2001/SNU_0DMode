@@ -1,6 +1,6 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ***
 
@@ -365,6 +365,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/seanpm2001/SNU-Dimensional-Converter"><img src="https://avatars.githubusercontent.com/u/87682924?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SNU Dimensional Converter</b></sub></a><br /><a href="https://github.com/seanpm2001/SNU_0DMode/commits?author=snu-dimensional-porting-toolkit" title="Code">💻</a> <a href="https://github.com/seanpm2001/SNU_0DMode/commits?author=snu-dimensional-porting-toolkit" title="Documentation">📖</a> <a href="#projectManagement-snu-dimensional-porting-toolkit" title="Project Management">📆</a> <a href="#security-snu-dimensional-porting-toolkit" title="Security">🛡️</a> <a href="#data-snu-dimensional-porting-toolkit" title="Data">🔣</a> <a href="#content-snu-dimensional-porting-toolkit" title="Content">🖋</a> <a href="#design-snu-dimensional-porting-toolkit" title="Design">🎨</a> <a href="#maintenance-snu-dimensional-porting-toolkit" title="Maintenance">🚧</a> <a href="#ideas-snu-dimensional-porting-toolkit" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://ddg.gg"><img src="https://avatars.githubusercontent.com/u/80805235?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seanpm2001 web software</b></sub></a><br /><a href="https://github.com/seanpm2001/SNU_0DMode/commits?author=seanpm2001-web" title="Code">💻</a> <a href="https://github.com/seanpm2001/SNU_0DMode/commits?author=seanpm2001-web" title="Documentation">📖</a> <a href="#projectManagement-seanpm2001-web" title="Project Management">📆</a> <a href="#security-seanpm2001-web" title="Security">🛡️</a> <a href="#data-seanpm2001-web" title="Data">🔣</a> <a href="#content-seanpm2001-web" title="Content">🖋</a> <a href="#design-seanpm2001-web" title="Design">🎨</a> <a href="#maintenance-seanpm2001-web" title="Maintenance">🚧</a> <a href="#ideas-seanpm2001-web" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
