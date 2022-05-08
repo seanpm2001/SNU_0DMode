@@ -1,0 +1,228 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "seanpm2001",
+      "name": "Sean P. Myrick V19.1.7.2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65933340?v=4",
+      "profile": "https://gist.github.com/seanpm2001/7e40a0e13c066a57577d8200b1afc6a3",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "all-contributors",
+      "name": "All Contributors",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46410174?v=4",
+      "profile": "https://allcontributors.org",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "snu-development",
+      "name": "SNU (Social Network Ultimate)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71748421?v=4",
+      "profile": "https://github.com/seanpm2001/",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "seanpm2001-GPL",
+      "name": "Seanpm2001 GPL (General Public License)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86742875?v=4",
+      "profile": "https://github.com/Seanpm2001-GPL",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "seanpm2001-all",
+      "name": "Seanpm2001 (All)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71843643?v=4",
+      "profile": "https://github.com/seanpm2001/",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "snu-package-manager",
+      "name": "SNU Package Manager",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105081786?v=4",
+      "profile": "https://github.com/SNU-Package-Manager",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "snu-0d",
+      "name": "SNU 0 Dimensional Development Center",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83679195?v=4",
+      "profile": "https://github.com/seanpm2001/SNU_0DMode",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "snu-dimensional-porting-toolkit",
+      "name": "SNU Dimensional Converter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87682924?v=4",
+      "profile": "https://github.com/seanpm2001/SNU-Dimensional-Converter",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "seanpm2001-web",
+      "name": "Seanpm2001 web software",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80805235?v=4",
+      "profile": "https://ddg.gg",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "seanpm2001-HTML5-lang",
+      "name": "Seanpm2001 HTML5 projects",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83990679?v=4",
+      "profile": "https://en.wikipedia.org/wiki/HTML5",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "seanpm2001-YAML-lang",
+      "name": "Seanpm2001 YAML language",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85202087?v=4",
+      "profile": "https://github.com/seanpm2001/SNU_2D_ProgrammingTools_IDE_YAML_-YAML_Ain-t_Markup_Language-",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "seanpm2001-JSON-lang",
+      "name": "Seanpm2001 JSON language",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93161824?v=4",
+      "profile": "https://github.com/Seanpm2001-JSON-lang",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "seanpm2001-Makefile-lang",
+      "name": "Seanpm2001 Makefile language",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85372130?v=4",
+      "profile": "https://github.com/seanpm2001/Makefile_Testing",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "SNU_0DMode",
+  "projectOwner": "seanpm2001",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
