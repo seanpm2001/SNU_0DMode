@@ -1,6 +1,6 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ***
 
@@ -383,6 +383,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/seanpm2001/SNU_2D_ProgrammingTools_IDE_ReStructuredText"><img src="https://avatars.githubusercontent.com/u/85259636?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seanpm2001 ReStructured Text language</b></sub></a><br /><a href="https://github.com/seanpm2001/SNU_0DMode/commits?author=seanpm2001-ReStructuredText-lang" title="Code">💻</a> <a href="https://github.com/seanpm2001/SNU_0DMode/commits?author=seanpm2001-ReStructuredText-lang" title="Documentation">📖</a> <a href="#projectManagement-seanpm2001-ReStructuredText-lang" title="Project Management">📆</a> <a href="#security-seanpm2001-ReStructuredText-lang" title="Security">🛡️</a> <a href="#data-seanpm2001-ReStructuredText-lang" title="Data">🔣</a> <a href="#content-seanpm2001-ReStructuredText-lang" title="Content">🖋</a> <a href="#design-seanpm2001-ReStructuredText-lang" title="Design">🎨</a> <a href="#maintenance-seanpm2001-ReStructuredText-lang" title="Maintenance">🚧</a> <a href="#ideas-seanpm2001-ReStructuredText-lang" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/seanpm2001/SNU_2D_ProgrammingTools_IDE_MediaWiki"><img src="https://avatars.githubusercontent.com/u/85258331?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seanpm2001 MediaWiki language</b></sub></a><br /><a href="https://github.com/seanpm2001/SNU_0DMode/commits?author=seanpm2001-MediaWiki-lang" title="Code">💻</a> <a href="https://github.com/seanpm2001/SNU_0DMode/commits?author=seanpm2001-MediaWiki-lang" title="Documentation">📖</a> <a href="#projectManagement-seanpm2001-MediaWiki-lang" title="Project Management">📆</a> <a href="#security-seanpm2001-MediaWiki-lang" title="Security">🛡️</a> <a href="#data-seanpm2001-MediaWiki-lang" title="Data">🔣</a> <a href="#content-seanpm2001-MediaWiki-lang" title="Content">🖋</a> <a href="#design-seanpm2001-MediaWiki-lang" title="Design">🎨</a> <a href="#maintenance-seanpm2001-MediaWiki-lang" title="Maintenance">🚧</a> <a href="#ideas-seanpm2001-MediaWiki-lang" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
