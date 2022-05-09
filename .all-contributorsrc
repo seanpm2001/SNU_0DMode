@@ -319,6 +319,23 @@
         "maintenance",
         "ideas"
       ]
+    },
+    {
+      "login": "seanpm2001-packages",
+      "name": "Seanpm2001 Package projects and forks (pkg)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97201045?v=4",
+      "profile": "https://github.com/seanpm2001?tab=packages",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
