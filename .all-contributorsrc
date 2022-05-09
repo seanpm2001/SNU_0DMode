@@ -251,6 +251,23 @@
         "maintenance",
         "ideas"
       ]
+    },
+    {
+      "login": "seanwallawalla-JokePrograms",
+      "name": "SeanWallaWalla Joke Programs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72825186?v=4",
+      "profile": "https://github.com/seanpm2001/",
+      "contributions": [
+        "code",
+        "doc",
+        "projectManagement",
+        "security",
+        "data",
+        "content",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
